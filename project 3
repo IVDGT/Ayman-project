@@ -1,0 +1,140 @@
+[abdullahfahad@Abdullahs-Air ~ % mkdir project3
+[abdullahfahad@Abdullahs-Air ~ % cd project labdullahfahad@Abdullahs-Air project % touch f1 labdullahfahad@Abdullahs-Air project % git add f1 fatal: not a git repository (or
+any of the parent directories): •git
+(abdullahfahad@Abdullahs-Air project % git init hint: Using
+'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all hint: of your new repositories, which will suppress this warning, call:
+hint: hint:
+git config --global init.defaultBranch ‹name>
+hint: hint:
+Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint:
+'development'. The just-created branch can be renamed via this command:
+hint: hint:
+git branch -m ‹name>
+Initialized empty Git repository in /Users/abdullahfahad/project/•git/ labdullahfahad@Abdullahs-Air project % git add f1 (abdullahfahad@Abdullahs-Air project % git commit -m "C1"
+[master (root-commit) 5d3de96] C1
+Committer: Abdullah Fahad < abdullahfahad@Abdullahs-Air. Home> Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config --global user. name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f1
+labdullahfahad@Abdullahs-Air projects % touch f2 (abdullahfahad@Abdullahs-Air project % git add f2 labdullahfahad@Abdullahs-Air project % git commit -m "C2"
+[master 0840a6b] C2
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-Air. Home>
+Your name and email address were configured automatically based
+ on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config --global user. name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f2
+labdullahfahad@Abdullahs-Air project % git checkout -b feature
+Switched to a new branch 'feature'
+labdullahfahad@Abdullahs-Air project % touch f3 labdullahfahad@Abdullahs-Air project % git add * abdullahfahad@Abdullahs-Air project % git commit -m "С3"
+[feature c27cddd] C3
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-Air. Home>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user. name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f3
+[abdullahfahad@Abdullahs-Air project % touch f4 labdullahfahad@Abdullahs-Air project % git add * labdullahfahad@Abdullahs-Air projects % git branch feature2 (abdullahfahad@Abdullahs-Air project % git commit -m "C4"
+[feature 7260712] C4
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-Air. Home>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+ on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config --global user. name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f4
+labdullahfahad@Abdullahs-Air projects % git checkout master
+Switched to branch 'master'
+abdullahfahad@Abdullahs-Air project3 % labdullahfahad@Abdullahs-Air project % touch f5 labdullahfahad@Abdullahs-Air project% git add * (abdullahfahad@Abdullahs-Air project % git commit -m "C5"
+[master 5ddbbf3] C5
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-Air. Home> Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config --global user. name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f5
+[abdullahfahad@Abdullahs-Air projects % touch f6 (abdullahfahad@Abdullahs-Air project % git add * labdullahfahad@Abdullahs-Air project % git commit -m "C6"
+[master 9d4f0abl C6
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-Air. Home>
+Your name and email address were configured automatically based [abdullahfahad@Abdullahs-Air projects % git add * [abdullahfahad@Abdullahs-Air project3 % git commit -m "C6"
+[master 9d4f0ab] C6
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-Air. Home>
+Your name and email address were configured
+automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config --global user. name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f6
+labdullahfahad@Abdullahs-Air project3 % git checkout feature2
+Switched to branch ' feature2' labdullahfahad@Abdullahs-Air project % touch f7 labdullahfahad@Abdullahs-Air project % git add * labdullahfahad@Abdullahs-Air project % git commit -m "C7"
+[feature2 ae69adel C7
+Committer: Abdullah Fahad < abdullahfahad@Abdullahs-Air. Home>
+Your name and email address were configured
+automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config --global user. name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions(+), 0 deletions (-)
+create mode 100644 f7
+labdullahfahad@Abdullahs-Air project % touch f8 abdullahfahad@Abdullahs-Air project3 % git add * labdullahfahad@Abdullahs-Air project % git commit -m "C8"
+[abdullahfahad@Abdullahs-Air project % git rebase --onto master feature feature2
+Successfully rebased and updated refs/heads/ feature2. labdullahfahad@Abdullahs-Air project% git checkout master
+Switched to branch 'master'
+labdullahfahad@Abdullahs-Air project % git merge feature2
+Updating 9d4f0ab.. e182f54
+Fast-forward
+17 10
+f8 | 0
+2 files changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f7
+create mode 100644 f8
+labdullahfahad@Abdullahs-Air project3 % git branch -d feature2
+Deleted branch feature2 (was e182f54). (abdullahfahad@Abdullahs-Air project% git checkout feature
+Switched to branch 'feature'
+abdullahfahad@Abdullahs-Air projects % git rebase master
+Successfully rebased and updated refs/heads/feature. labdullahfahad@Abdullahs-Air project % git checkout
+master
+Switched to branch 'master'
+labdullahfahad@Abdullahs-Air project % git merge feature
+Updating e182f54..7930a72
+Fast-forward
+f3 | 0
+f4 | 0
+2 files changed, 0 insertions (+), 0 deletions (-)
+create mode 100644 f3
+create mode 100644 f4
+[abdullahfahad@Abdullahs-Air project % git branch -d feature
+Deleted branch feature (was 793072). labdullahfahad@Abdullahs-Air project % git 10g
+--graph --all --oneline
+* 7930a72 (HEAD →> master) C4
+* f3ccb0d
+C3
+* e182f54
+C8
+* 187be7
+C7
+* 9d4f0ab
+* 5ddbbf3
+C5
+* 0840a6b
+C2
+* 5d3de96 C1
+abdullahfahad@Abdullahs-Air project % |
