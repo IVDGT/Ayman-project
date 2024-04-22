@@ -28,8 +28,7 @@ create mode 100644 f1
 On branch master
 nothing to commit, working tree clean
 [abdullahfahad@Abdullahs-MacBook-Air prorect% nano f1
-labdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c1"
-[6:10 pm, 20/04/2024] 🖤لا اله الا الله❤️: [master 549dbc1] c1
+labdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c1" [master 549dbc1] c1
 Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
 Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly:
@@ -57,7 +56,7 @@ Your name and email address were configured automatically based on your username
 You can suppress this message by setting them explicitly:
 git config -global user.name "Your Name" git config --global user.email you@example.com
 After doing this, you may fix the identity used for this commit with:
-[6:10 pm, 20/04/2024] 🖤لا اله الا الله❤️: git commit --amend --reset-author
+ git commit --amend --reset-author
 1 file changed, 1 insertion (+)
 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git checkout -b Feature
 Switched to a new branch 'Feature'
@@ -86,7 +85,7 @@ git commit --amend --reset-author
 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git checkout Feature
 Switched to branch 'Feature' [abdullahfahad@Abdullahs-MacBook-Air prorect% nano f1
 labdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c5"
-[6:11 pm, 20/04/2024] 🖤لا اله الا الله❤️: Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+ Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
 Your name
 and email address were configured automatically based on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly:
