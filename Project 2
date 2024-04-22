@@ -1,0 +1,115 @@
+[labdullahfahad@Abdullahs-MacBook-Air ~ % mkdir prorect1
+[abdullahfahad@Abdullahs-MacBook-Air ~ % cd prorect1
+% md prorectect
+[abdullahfahad@Abdullahs-MacBook-Air prorect1 % touch f1 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1
+fatal: not a git repository (or any of the parent directories): •git [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git init
+hint: Using 'master' as the name for the initial branch. This default branch name hint: is subject to change. To configure the initial branch name to use in all hint: of your new repositories, which will suppress this warning, call: hint: hint:
+git config --global init.defaultBranch ‹name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and hint: 'development'. The just-created branch can be renamed via this command:
+i branch can be
+hint: hint:
+git branch -m ‹name>
+Initialized empty Git repository in /Users/abdullahfahad/prorect1/•git/ labdullahfahad@Abdullahs-MacBook-Air prorect1% git add f1 labdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -"c®"
+fatal: could not lookup commit 0
+abdullahfahad@Abdullahs-MacBook-Air prorect1 % git tag v0.1
+fatal: Failed to resolve 'HEAD' as a valid ref.
+(abdullahfahad@Abdullahs-MacBook-Air prorect1 % git 10g --oneline fatal: your current branch 'master' does not have any commits yet (abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c®"
+[master (root-commit) 9cfb2f5] cO
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user. name "Your Name" git config -global user.email you@example. com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 0 insertions+), 0 deletions (-)
+create mode 100644 f1
+[abdullahfahad@Abdullahs-MacBook-Air prorect1% git tag v0.1 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c1"
+On branch master
+nothing to commit, working tree clean
+[abdullahfahad@Abdullahs-MacBook-Air prorect% nano f1
+labdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c1"
+[6:10 pm, 20/04/2024] 🖤لا اله الا الله❤️: [master 549dbc1] c1
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user.name "Your Name" git config - global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 1 insertion (+)
+abdullahfahad@Abdullahs-MacBook-Air prorect1 % git tag v0.2 (abdullahfahad@Abdullahs-MacBook-Air prorect1 % nano f1
+labdullahfahad@Abdullahs-MacBook-Air prorect1% git add f1 (abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c2"
+[master 1444bd7] c2
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air.local>
+Your name
+and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+nex licitaye accurate.
+git config -global user.name "Your Name" git config -global user.email you@example. com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 2 insertions (+), 1 deletion(-) abdullahfahad@Abdullahs-MacBook-Air prorect1 % git tag v0.3 [abdullahfahad@Abdullahs-MacBook-Air prorect% nano f1
+labdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1 abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c3"
+[master 15cd4ff] c3
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air.local>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user.name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+[6:10 pm, 20/04/2024] 🖤لا اله الا الله❤️: git commit --amend --reset-author
+1 file changed, 1 insertion (+)
+[abdullahfahad@Abdullahs-MacBook-Air prorect1 % git checkout -b Feature
+Switched to a new branch 'Feature'
+labdullahfahad@Abdullahs-MacBook-Air prorect1 % nano f1
+[abdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1 labdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "с3"
+[Feature 2f009d] c3
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air.local>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user.name "Your Name"
+git config --global user.email you@example. com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 1 insertion(+), 1 deletion (-)
+[abdullahfahad@Abdullahs-MacBook-Air prorect1 % git checkout master
+Switched to branch 'master' [abdullahfahad@Abdullahs-MacBook-Air prorect% nano f1
+(abdullahfahad@Abdullahs-MacBook-Air prorect1% git add f1 labdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c4"
+[master f4b4297] c4
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air.local>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user. name "Your Name" git config --global user.email you@example. com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 1 insertion (+), 1 deletion (-)
+[abdullahfahad@Abdullahs-MacBook-Air prorect1 % git checkout Feature
+Switched to branch 'Feature' [abdullahfahad@Abdullahs-MacBook-Air prorect% nano f1
+labdullahfahad@Abdullahs-MacBook-Air prorect1 % git add f1 [abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "c5"
+[6:11 pm, 20/04/2024] 🖤لا اله الا الله❤️: Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+Your name
+and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user.name "Your Name" git config --global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 1 insertion (+)
+(abdullahfahad@Abdullahs-MacBook-Air prorect % git checkout master
+Switched to branch 'master'
+abdullahfahad@Abdullahs-MacBook-Air prorect1 % git merge feature
+Auto-merging f1
+CONFLICT (content): Merge conflict in f1
+Automatic merge failed; fix conflicts and then commit the result. [abdullahfahad@Abdullahs-MacBook-Air prorect1 % nano f1 abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "con"
+U
+f1
+error: Committing is not possible because you have unmerged files. hint: Fix them up in the work tree, and then use 'git add/rm < file>' hint: as appropriate to mark resolution and make a commit. fatal: Exiting because of an unresolved conflict.
+(abdullahfahad@Abdullahs-MacBook-Air prorect1% git merge feature error: Merging is not possible because you have unmerged files. hint: Fix them up in the work tree, and then use 'git add/rm < file>' hint: as appropriate to mark resolution and make a commit. fatal: Exiting because of an unresolved conflict. abdullahfahad@Abdullahs-MacBook-Air prorect % git add f1 abdullahfahad@Abdullahs-MacBook-Air prorect1 % git commit -m "con" [master 02b7605] con
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+Your name
+and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user. name "Your Name" git config -global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+abdullahfahad@Abdullahs-MacBook-Air prorect1
+%
