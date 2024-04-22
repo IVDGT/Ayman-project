@@ -1,0 +1,28 @@
+abdullahfahad@Abdullahs-MacBook-Air new-project % mkdir new-project [abdullahfahad@Abdullahs-MacBook-Air new-project % cd new-project [abdullahfahad@Abdullahs-MacBook-Air new-project % git init
+hint: Using 'master' as the name for the initial branch. This default branch name hint: is subject to change. To configure the initial branch name to use in all hint: of your new repositories, which will suppress this warning, call: hint: hint: hint:
+git config -global init.defaultBranch ‹name>
+hint:
+Names commonly chosen instead of 'master' are 'main',
+"trunk' and
+hint:
+'development'. The just-created branch can be renamed via this command:
+hint: hint:
+git branch -m ‹name>
+Initialized empty Git repository in /Users/abdullahfahad/. Trash/new-project/new-project/-git/ [abdullahfahad@Abdullahs-MacBook-Air new-project % touch fileA [abdullahfahad@Abdullahs-MacBook-Air new-project % touch fileB abdullahfahad@Abdullahs-MacBook-Air new-project % git add * abdullahfahad@Abdullahs-MacBook-Air new-project % git commit -m "c1" [master (root-commit) 0ed6b70] c1
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user. name "Your Name" git config -global user.email you@example.com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+2 files changed,
+0 insertions (+), 0 deletions (-)
+create mode 100644 fileA create mode 100644 fileB
+[abdullahfahad@Abdullahs-MacBook-Air new-project % nano fileA [abdullahfahad@Abdullahs-MacBook-Air new-project % git restore fileA (abdullahfahad@Abdullahs-MacBook-Air new-project % git nano fileB
+git: 'nano' is not a git command. See 'git --help'.
+The most similar commands are
+annotate daemon
+abdullahfahad@Abdullahs-MacBook-Air new-project % nano fileB abdullahfahad@Abdullahs-MacBook-Air new-project % git status
+On branch master
+Changes not staged for commit:
+(use "git add < file>..." to update what will be committed
