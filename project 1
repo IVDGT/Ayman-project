@@ -26,3 +26,41 @@ abdullahfahad@Abdullahs-MacBook-Air new-project % nano fileB abdullahfahad@Abdul
 On branch master
 Changes not staged for commit:
 (use "git add < file>..." to update what will be committed
+abdullahfahad@Abdullahs-MacBook-Air new-project % git status
+On branch master
+Changes not staged for commit: (use "git add ‹ file>..."
+to update what will be committed)
+(use "git restore < file>..." to discard changes in working directory)
+modified:
+fileB
+no changes added to commit (use "git add" and/or "git commit -a") [abdullahfahad@Abdullahs-MacBook-Air new-project % git add fileB abdullahfahad@Abdullahs-MacBook-Air new-project % git commit -m
+"c2"
+[master 4428800] c2
+Committer: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+Your name and email
+address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+git config -global user. name "Your Name" git config --global user.email you@example. com
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author
+1 file changed, 1 insertion (+)
+[abdullahfahad@Abdullahs-MacBook-Air new-project % git 10g
+commit 44288003bbd85bf99416867a06f8ae37f9f4aled (HEAD -> master)
+Author: Abdullah Fahad <abdullahfahad@Abdullahs-MacBook-Air. local>
+Date:
+Thu Nov 16 20:36:05 2023 +0300
+c2
+commit 0ed6b70ac8003ac2023f5afbb9ebc1938e832f3e
+Author: Abdullah Fahad < abdullahfahad@Abdullahs-MacBook-Air.local>
+Date:
+Thu Nov 16 20:30:12 2023 +0300
+с1
+[abdullahfahad@Abdullahs-MacBook-Air new-project % --amend zsh: command not found: --amend [abdullahfahad@Abdullahs-MacBook-Air new-project % git --amend unknown option: --amend
+usage: git [--version] [--help] [-C < path>] [-c <name>=<value>]
+[--exec-path[=<path>]] [--html-path] [—-man-path] [--info-path]
+[-p | --paginate | -P | --no-pager] [--no-replace-objects] [--barel
+［--git-dir=spath>］［--work-tree=<path>］［--namespace=<name>］
+[--super-prefix=<path>] [--config-env=<name>=<envvar>]
+‹command> [<args>]
+abdullahfahad@Abdullahs-MacBook-Air new-project %
